@@ -1,5 +1,11 @@
 # Threader
-This plugin does one thing - queues functions to be executed in the main thread.
+This plugin does one thing - queues functions to be executed in the main thread. Call from coroutines, network request callbacks, etc.
+
+Compatible with at least Unity 3.5.7 (I'm sure it would run on earlier versions if you wanted).
+
+Available for free at: https://github.com/kvonflotow/Threader
+
+Also available in the Unity asset store for a much appreciated nominal fee.
 
 ### Instructions
 Attach Threader.cs script to a GameObject, or drag Threader.prefab into the scene.
